@@ -1,0 +1,149 @@
+
+.inputfile + label {
+    max-width: 80%;
+    padding-bottom: 3px;
+    /* 20px */
+ 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+ 
+}
+
+
+.inputfile-6 + label, .video {
+    border: 1px solid #2d23b9;
+    /* background-color: #f1e5e6; */
+    
+    
+}
+
+
+
+.inputfile-6 + label span,
+.inputfile-6 + label strong {
+    padding:0.35rem 0 1.25rem 1.25rem ;
+    /* 10px 20px */
+}
+
+.inputfile-6 + label span, .video {
+    width: 300px;
+    min-height: 2em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.video{
+    padding: 5px 20px;
+}
+
+tr{
+    height: 45px;
+}
+
+
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+span{
+    height: 30px !important;
+}
+#filebutton{
+    
+
+   
+    width: 130px;
+    height: 30px !important;
+    background: #2d23b9;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+#filename{
+    float:left;
+}
+#img1{
+    display: none !important;
+    
+}
+
+.error {color: #FF0000;}
+#sel1{
+    width: 200px;
+}
+.inputfile{
+    display: none !important;
+}
+/* btn select file */
+.btnfile{
+    width: 100px;
+    height: 40px;
+    background: #2d23b9;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 200;
+    float: left;
+    cursor: pointer;
+}
+.btnvideo{
+    width: 150px;
+    height: 40px;
+    background: #2d23b9;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 200;
+    float: left;
+    cursor: pointer;
+    
+}
+.error{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.model1{
+    float: left;
+    margin-right: 20px;
+}
+.model2{
+    float: left;
+    margin-left: 10px;
+
+}
+
+.model3{
+    float: left;
+}
+.btndelete{
+    width: 100px;
+    height: 40px;
+    background: #2d23b9;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 200;
+    float: left;
+    margin-left:10px;
+    cursor: pointer;
+}
+label{
+    float:left;
+}
