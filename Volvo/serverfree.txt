@@ -1,0 +1,4 @@
+host: localhost
+db: id20410442_simgtest
+user: id20410442_simg
++cqywkU0[xOATMMR
