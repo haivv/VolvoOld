@@ -22,20 +22,7 @@
 
 <?php
 
-// if(!isset($_SESSION['visitor']))
-// {
-//     $_SESSION['visitor'] = 0;
-// }
-// echo "section num".$_SESSION['visitor'];
 
-// require 'config.php';
-
-
-// $rows = mysqli_query($conn, "SELECT id FROM platform ORDER BY id DESC LIMIT 1");
-// foreach($rows as $row) :
-//     $_SESSION['visitor'] = $row["id"]+1;
-//     echo  "id row:".$row["id"];
-// endforeach;
 
 
 //GET LAST ID
