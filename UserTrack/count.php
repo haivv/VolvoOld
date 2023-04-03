@@ -29,12 +29,12 @@ require 'config.php';
 
 echo $_SESSION['counter'];
 if($_SESSION['counter']==1){
-  echo "Thuc hien trong nay";
+  
   header('location: adddata.php');
     
 }
 else{
-  // echo "dung";
+  
   
 }
 

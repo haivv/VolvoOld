@@ -34,7 +34,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM platform";
+$sql = "SELECT * FROM platform ORDER BY id DESC";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -48,10 +48,7 @@ if ($result->num_rows > 0) {
           <td><?php echo $row["logintime"]; ?></td>
           <td><?php echo $row["logouttime"]; ?></td>
     </tr>
-
 <?php
-
-    
 
   }
 } else {
@@ -59,30 +56,12 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 
-
 ?>
        
       </tbody>
   </table>
   
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <br>
     
   </body>
 </html>

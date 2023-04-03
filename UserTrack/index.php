@@ -11,31 +11,13 @@
 </head>
 <body>
     <h1>index page</h1>
-    <?php
-    
-    
 
-    
-    ?>
    <a href='count.php'>Login</a>
    
 
 <?php
 
-// if(!isset($_SESSION['visitor']))
-// {
-//     $_SESSION['visitor'] = 0;
-// }
-// echo "section num".$_SESSION['visitor'];
 
-// require 'config.php';
-
-
-// $rows = mysqli_query($conn, "SELECT id FROM platform ORDER BY id DESC LIMIT 1");
-// foreach($rows as $row) :
-//     $_SESSION['visitor'] = $row["id"]+1;
-//     echo  "id row:".$row["id"];
-// endforeach;
 
 
 //GET LAST ID
@@ -63,11 +45,7 @@ if ($result->num_rows > 0) {
 }
 ///end. GET LAST ID
 
-
-
 ?>
-
-
 
 </body>
 </html>

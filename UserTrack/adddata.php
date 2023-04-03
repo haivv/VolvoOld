@@ -56,17 +56,6 @@ if(isset($_POST["ip"])){
  
   $timeOut = "";
 
-
-
-
-  
-
-
-
-
- 
-
-
   $conn = new mysqli($servername, $username, $password, $dbname);
   // Check connection
   if ($conn->connect_error) {
@@ -86,22 +75,16 @@ if(isset($_POST["ip"])){
       if($row1["id"]==$lastid) //check 
       {
 
-
-
                 $sql = "INSERT INTO platform VALUES('', '$ip', '$device', '$timeIn', '$timeOut')";
                 
                 if ($conn->query($sql) === TRUE) {
                   
-                  echo "New record created successfully";
+                  
                 } else {
                   echo "Error: " . $sql . "<br>" . $conn->error;
                 }
-  
 
               }
-
-
-    
         }
       } else {
         echo "0 results";
