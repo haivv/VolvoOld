@@ -34,7 +34,7 @@ if($_SESSION['counter']==1){
     
 }
 else{
-  
+  // echo "dung";
   
 }
 
