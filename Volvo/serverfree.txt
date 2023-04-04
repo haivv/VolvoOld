@@ -1,4 +1,10 @@
 host: localhost
-db: id20410442_simgtest
-user: id20410442_simg
-+cqywkU0[xOATMMR
+db: volvo
+user: root
+pass: 
+
+----
+admin
+http://localhost/volvo/simgadmin/
+user: admin
+pass: 123
