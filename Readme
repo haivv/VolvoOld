@@ -1,7 +1,6 @@
 이 응용 프로그램은 로컬 호스트 (localhost)로 실행됩니다.
 MySQL을 설치하고 데이터베이스를 추가합니다.
 ----
-run web: http://localhost/volvo
 
 ---database----
 host: localhost
@@ -11,6 +10,5 @@ pass:
 
 ----
 admin
-http://localhost/volvo/simgadmin/
 user: admin
 pass: 123
